@@ -1,0 +1,51 @@
+.blogs {
+    text-align: center;
+    padding: 40px;
+    background: #fff9f4;
+  }
+  
+  .blog-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 90%;
+    margin: auto;
+    justify-content: space-around;
+  }
+  
+  .blog-card {
+    width: 45%;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: white;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .blog-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .blog-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .blog-benefits {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+  }
+  
+  .blog-benefits li {
+    background: #f38b4f;
+    color: white;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
